@@ -1,22 +1,14 @@
 CREATE DATABASE Emp;
-2 
-3 USE Emp;
-4 
-5 CREATE TABLE employee(id INT(10) NOT NULL AUTO_INCREMENT,Firstname VARCHAR(150) NOT 
-NULL,Lastname VARCHAR(150) NOT NULL,
-6 Gender VARCHAR(150) NOT NULL,DOB NUMBER(10) NOT NULL,Designation VARCHAR(150) NOT NULL,Email 
-VARCHAR(150) NOT NULL
-7 Mobile NUMBER(15) NOT NULL,Address VARCHAR(150) NOT NULL,City VARCHAR(150) NOT NULL,State 
-VARCHAR(150) NOT NULL,
-8 Pincode NUMBER(150) NOT NULL,Country VARCHAR(150) NOT NULL,salary DOUBLE NOT NULL,
-9 PRIMARY KEY (id)
-10 );
-11 
-12 INSERT INTO employee VALUES (1001,'Balaji','Kandan', 
-'Male',29-01-2002,'Manager','bala@gmail.com',6789307628,'anna nagar','chennai','TamilNadu',6000001,'India');
-13 INSERT INTO employee VALUES (1002,'Bala','Kumar', 
-'Male',24-12-2001,'Manager','balakumar@gmail.com',6789457628,'kamarajar 
-nagar','chennai','TamilNadu',6002001,'India');
-14 INSERT INTO employee VALUES (1001,'Bala','Murugan', 
-'Male',20-03-2000,'Manager','balamurugan@gmail.com',8989307628,'anna 
-salai','chennai','TamilNadu',6005001,'India');
+
+USE Emp;
+
+CREATE TABLE employee(id INT(10) NOT NULL AUTO_INCREMENT,Firstname VARCHAR(150) NOT NULL,Lastname VARCHAR(150) NOT NULL,
+Gender VARCHAR(150) NOT NULL,DOB NUMBER(10) NOT NULL,Designation VARCHAR(150) NOT NULL,Email VARCHAR(150) NOT NULL
+Mobile NUMBER(15) NOT NULL,Address VARCHAR(150) NOT NULL,City VARCHAR(150) NOT NULL,State VARCHAR(150) NOT NULL,
+Pincode NUMBER(150) NOT NULL,Country VARCHAR(150) NOT NULL,salary DOUBLE NOT NULL,
+PRIMARY KEY (id)
+);
+
+INSERT INTO employee VALUES (1001,'Balaji','Kandan', 'Male',29-01-2002,'Manager','bala@gmail.com',6789307628,'anna nagar','chennai','TamilNadu',6000001,'India');
+INSERT INTO employee VALUES (1002,'Bala','Kumar', 'Male',24-12-2001,'Manager','balakumar@gmail.com',6789457628,'kamarajar nagar','chennai','TamilNadu',6002001,'India');
+INSERT INTO employee VALUES (1001,'Bala','Murugan', 'Male',20-03-2000,'Manager','balamurugan@gmail.com',8989307628,'anna salai','chennai','TamilNadu',6005001,'India');
